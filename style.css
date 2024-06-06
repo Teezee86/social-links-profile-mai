@@ -1,0 +1,38 @@
+:root {
+  --prime-green: hsl(75, 94%, 57%);
+  --white-font: hsl(0, 0%, 100%);
+  --grey-link: hsl(0, 0%, 20%);
+  --darkgrey-bg2: hsl(0, 0%, 12%);
+  --offblack-bg1: hsl(0, 0%, 8%);
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: inter;
+  font-size: 14px;
+}
+header,
+main,
+footer {
+  text-align: center;
+}
+a,
+li,
+ul {
+  text-decoration: none;
+  list-style-type: none;
+}
+/** base styles, font and colors **/
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
