@@ -18,6 +18,12 @@ html {
   background-color: var(--offblack-bg1);
   color: var(--white-font);
 }
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 header,
 main,
 footer {
@@ -39,7 +45,6 @@ ul {
   justify-content: center;
   align-items: center;
   background-color: var(--darkgrey-bg2);
-  margin: 50px auto;
   padding: 1em;
   width: 20rem;
   border-radius: 5px;
@@ -56,15 +61,18 @@ ul {
   line-height: 1.8;
   font-weight: 500;
 }
+.info__about,
+.info__location--green,
+.new__item {
+  font-size: 0.8rem;
+}
 .info__about {
-  font-size: 0.7rem;
   line-height: 2;
 }
 .info__location--green {
   color: var(--prime-green);
   margin-bottom: 20px;
   font-weight: 700;
-  font-size: 0.8rem;
 }
 .nav__item {
   background-color: var(--grey-link);
@@ -72,7 +80,6 @@ ul {
   margin: 13px;
   width: 240px;
   border-radius: 5px;
-  font-size: 0.8rem;
   font-weight: 600;
 }
 .nav__item:hover {
@@ -81,6 +88,10 @@ ul {
 }
 
 .attribution {
+  right: 70px;
+  display: inline-block;
+  position: fixed;
+  bottom: 0;
   font-size: 11px;
   text-align: center;
   color: var(--white-font);
