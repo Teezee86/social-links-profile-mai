@@ -79,8 +79,7 @@ ul {
   background-color: var(--prime-green);
   color: black;
 }
-.nav__link::after {
-}
+
 .attribution {
   font-size: 11px;
   text-align: center;
