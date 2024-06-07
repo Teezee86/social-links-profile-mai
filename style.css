@@ -73,11 +73,10 @@ ul {
   width: 240px;
   border-radius: 5px;
   font-size: 0.8rem;
+  font-weight: 600;
 }
 .nav__item:hover {
   background-color: var(--prime-green);
-}
-.nav__link:hover {
   color: black;
 }
 .attribution {
